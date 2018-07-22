@@ -1,8 +1,10 @@
 #include <iostream>
 
-int main(int argc, char **argv) {
+int
+main (int argc, char **argv)
+{
 
-	std::cout << "3 + 4; " << 3 + 4 << std::endl;
+  std::cout << "3 + 4; " << 3 + 4 << std::endl;
 
-	return 0;
+  return 0;
 }

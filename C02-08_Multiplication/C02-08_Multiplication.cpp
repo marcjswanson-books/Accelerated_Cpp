@@ -7,19 +7,21 @@ using std::cout;
 using std::endl;
 using std::setw;
 
-int main(int argc, char **argv)
+int
+main (int argc, char **argv)
 {
-	const int MIN = 1;
-	const int MAX = 10;
+  const int MIN = 1;
+  const int MAX = 10;
 
-	// simple version...
-	for ( int multiplier = MIN; multiplier != MAX; ++multiplier )
+  // simple version...
+  for (int multiplier = MIN; multiplier != MAX; ++multiplier)
+    {
+      for (int multiplicand = 1; multiplicand != 10; ++multiplicand)
 	{
-		for ( int multiplicand = 1; multiplicand != 10; ++multiplicand )
-		{
-			cout << multiplier << " x " << multiplicand << " = " << multiplier * multiplicand << endl;
-		}
+	  cout << multiplier << " x " << multiplicand << " = "
+	      << multiplier * multiplicand << endl;
 	}
+    }
 
-	return 0;
+  return 0;
 }

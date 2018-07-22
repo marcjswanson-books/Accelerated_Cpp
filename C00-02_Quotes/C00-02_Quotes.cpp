@@ -1,8 +1,11 @@
 #include <iostream>
 
-int main(int argc, char **argv) {
+int
+main (int argc, char **argv)
+{
 
-	std::cout << "This (\") is a quote, and this (\\) is a backslash." << std::endl;
+  std::cout << "This (\") is a quote, and this (\\) is a backslash."
+      << std::endl;
 
-	return 0;
+  return 0;
 }

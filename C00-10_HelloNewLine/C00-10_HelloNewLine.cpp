@@ -1,10 +1,11 @@
 // a small C++ program
 #include <iostream>
 
-int main()
+int
+main ()
 {
-	std::cout << "Hello,\nworld!" << std::endl;
+  std::cout << "Hello,\nworld!" << std::endl;
 
-	return 0;
+  return 0;
 }
 
